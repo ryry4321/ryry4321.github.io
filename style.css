@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:ital,wght@1,300&display=swap');
+
+body {
+    background-color: #e4e3ce;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+  font-size: 36px;
+  padding: 15px;
+  color: #8c6b48;
+  background-color: #e4e3ce;
+  text-align: center;
+}
+
+h2{
+    font-size: 24px;
+    padding: 3px;
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.left {
+    position: absolute;
+    top: 2px;
+    right: 1;
+}
+.right {
+    position: absolute;
+    top: 2px;
+    right: 15px;
+}
+
+nav{
+    background-color: #e4e3ce;
+    position: sticky;
+    top: 0;
+    padding: 0 85px;
+    display: flex;  
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    box-shadow: 0 5px 100px rgba(0,0,0,0.1);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+li {
+    list-style: none;
+}
+nav ul,
+footer .top ul{
+    display: flex;
+    gap: 40px;
+}
+.main {
+    background-color: #deebee;
+    padding: 90px 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+.main .img1 img{
+    width: 300px;
+}
